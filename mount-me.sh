@@ -1,6 +1,8 @@
 #!/bin/sh
 # Song Jiang modified based on original version
-set -e
+# To install nsenter docker run --rm -v /usr/local/bin:/target jpetazzo/nsenter
+#set -e
+
 CONTAINER=target
 HOSTPATH=/root/mytest
 CONTPATH=/transfer
